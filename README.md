@@ -2,6 +2,15 @@
 
 Standalone Okami Designs AV calibration tool. Fully **client-side** (canvas + Web Audio) — no Node API.
 
+## Pages
+
+| Path | Role |
+|------|------|
+| `/` (`index.html`) | App **landing page** — what the main Okami site links to |
+| `/app.html` | The actual tool UI |
+
+Flow: main site Tools → this host `/` → **Open Signal Lab** → `app.html`.
+
 ## Local
 
 ```bash
