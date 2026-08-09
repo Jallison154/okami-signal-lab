@@ -1,0 +1,11 @@
+{
+  "name": "okami-signal-lab",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Okami Signal Lab — standalone static AV calibration tool",
+  "scripts": {
+    "start": "npx --yes serve -l 3081 .",
+    "docker:build": "docker build -t okami-signal-lab .",
+    "docker:run": "docker run --rm -p 3081:80 okami-signal-lab"
+  }
+}
